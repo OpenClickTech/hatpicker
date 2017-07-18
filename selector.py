@@ -3,7 +3,7 @@ import argparse
 import sys
 
 parser = argparse.ArgumentParser(description='Draw N ids at random from an input file.')
-parser.add_argument('-n', type=int, help='the number of ids to draw')
+parser.add_argument('-n', type=int, help='the number of ids to draw', required=True)
 args = parser.parse_args()
 
 rng = SystemRandom()

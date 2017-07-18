@@ -7,7 +7,7 @@ Picks n random ids out of a hat.
 Usage:
 
 ```bash
-$ selector.py -n 3 < data/sampleids.txt
+$ python selector.py -n 3 < data/sampleids.txt
 ```
 
 This will choose 3 MD5s at random from the sample data file included in this repo.
