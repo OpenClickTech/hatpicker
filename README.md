@@ -12,7 +12,7 @@ $ python selector.py -n 3 < data/sampleids.txt
 
 This will choose 3 MD5s at random from the sample data file included in this repo.
 
-If you want to allow duplicate ids, given each id that is duplicated a greater chance of winning, use the `-d` flag:
+If you want to allow duplicate ids, which will give each id that is duplicated a greater chance of winning, use the `-d` flag:
 
 ```bash
 $ python selector.py -n 3 -d < data/sampledupes.txt
